@@ -10,7 +10,7 @@ public class Lab1{
       {
         for(int j=0;j<N;j++)
           {
-            matrix1[i][j] = scanner.nexrInt();
+            matrix1[i][j] = scanner.nextInt();
           }
       }
     System.out.println("Enter the elements for second array");
@@ -18,7 +18,7 @@ public class Lab1{
       {
         for(int j=0;j<N;j++)
           {
-            matrix2[i][j] = scanner.nexrInt();
+            matrix2[i][j] = scanner.nextInt();
           }
       }
     int[][] sumMat = new int[N][N];
